@@ -1,0 +1,33 @@
+.formInput input {
+  border: 1px solid #0f172a;
+  line-height: 18px;
+  padding: 8px 4px;
+  margin-right: 8px;
+  border-radius: 12px;
+}
+
+.formInput button {
+  background-color: #0f172a;
+  color: #fff;
+  border: none;
+  width: 100px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 8px 0;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+
+  .formInput input {
+    width: 98%;
+    display: block;
+    margin-bottom: 8px;
+  }
+
+  .formInput button {
+    width: 100%;
+  }
+}
